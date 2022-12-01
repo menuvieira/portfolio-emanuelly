@@ -82,7 +82,7 @@ h3 {
 
 .principal-2 {
     display: flex;
-    background-color: whitesmoke;
+    background-color: #D9D1C7;
     height: 100vh;
     width: 100%;
 
@@ -132,4 +132,44 @@ h3 {
     font-size: 18px;
     text-decoration: inherit;
    
+}
+
+.footer {
+    background-color: #D9D1C7;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    justify-content: center;
+
+}
+
+.div-contato {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+   
+}
+
+.lista-footer li{
+    color: darkgoldenrod;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+
+}
+
+.estilo-icon {
+    font-size: 22px;
+    margin-right: 10px;
+
+}
+
+.links {
+    color: darkgoldenrod;
+    text-decoration: none;
 }
