@@ -59,8 +59,27 @@ h3 {
 
 }
 
+.principal {
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    height: 100vh;
+    padding-top: 60px;
+    justify-content: center;
+
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
 .texto-1 {
     padding: 32px;
+    align-items: center;
 
 }
 
@@ -77,23 +96,6 @@ th, td {
 
 tr:nth-child(even) {background-color: palegoldenrod;}
 
-
-.principal {
-    display: flex;
-    background-color: lightgoldenrodyellow;
-    height: 100vh;
-    padding-top: 60px;
-
-}
-
-.subcontainer-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-   
-}
 
 .principal-2 {
     display: flex;
